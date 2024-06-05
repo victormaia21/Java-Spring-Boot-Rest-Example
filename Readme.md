@@ -57,7 +57,21 @@ Para iniciar o projeto localmente, siga as instruções abaixo:
    ./mvnw spring-boot:run
    ```
 
-4. Agora, você pode acessar o projeto em [http://localhost:8080/](http://localhost:8080/).
+4. **Crie um arquivo .env e cole o seguinte**:
+
+```bash
+## Prencha seus dados aqui
+POSTGRESDB_USER=
+POSTGRESDB_ROOT_PASSWORD=
+POSTGRESDB_DATABASE=orders
+POSTGRESDB_LOCAL_PORT=5430
+POSTGRESDB_DOCKER_PORT=5432
+
+SPRING_LOCAL_PORT=8080
+SPRING_DOCKER_PORT=8080
+```
+
+5. Agora, você pode acessar o projeto em [http://localhost:8080/](http://localhost:8080/).
 
 ### Iniciando o Projeto com Docker
 
@@ -73,7 +87,21 @@ Se preferir usar Docker, siga estas etapas:
    docker-compose up
    ```
 
-4. Agora, você pode acessar o projeto em [http://localhost:8080/](http://localhost:8080/).
+4. **Crie um arquivo .env e cole o seguinte**:
+
+```bash
+## Prencha seus dados aqui
+POSTGRESDB_USER=
+POSTGRESDB_ROOT_PASSWORD=
+POSTGRESDB_DATABASE=orders
+POSTGRESDB_LOCAL_PORT=5430
+POSTGRESDB_DOCKER_PORT=5432
+
+SPRING_LOCAL_PORT=8080
+SPRING_DOCKER_PORT=8080
+```
+
+5. Agora, você pode acessar o projeto em [http://localhost:8080/](http://localhost:8080/).
 
 ## Abordagem
 
