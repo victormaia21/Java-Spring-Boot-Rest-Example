@@ -52,13 +52,7 @@ Para iniciar o projeto localmente, siga as instruções abaixo:
 
 2. **Configuração do Ambiente Java**: Certifique-se de que você possui um ambiente java configurado.
 
-3. **Inicie o Servidor de Desenvolvimento do Spring boot**:
-
-   ```bash
-   ./mvnw spring-boot:run
-   ```
-
-4. **Crie um arquivo .env e cole o seguinte**:
+3. **Crie um arquivo .env e cole o seguinte**:
 
 ```bash
 ## Prencha seus dados aqui
@@ -72,9 +66,15 @@ SPRING_LOCAL_PORT=8080
 SPRING_DOCKER_PORT=8080
 ```
 
+4. **Inicie o Servidor de Desenvolvimento do Spring boot**:
+
+   ```bash
+   ./mvnw spring-boot:run
+   ```
+
 5. Agora, você pode acessar o projeto em [http://localhost:8080/](http://localhost:8080/).
 
-6. Também pode ter acesso ao swagger da aplicação e. [http://localhost:8080/swagger-ui/index.html][http://localhost:8080/swagger-ui/index.html].
+6. Também pode ter acesso ao swagger da aplicação e. [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html).
 
 ### Iniciando o Projeto com Docker
 
@@ -84,13 +84,7 @@ Se preferir usar Docker, siga estas etapas:
 
 2. Certifique-se de que o Docker e o Docker Compose estejam instalados.
 
-3. Execute o seguinte comando para construir o ambiente de desenvolvimento:
-
-   ```bash
-   docker-compose up
-   ```
-
-4. **Crie um arquivo .env e cole o seguinte**:
+3. **Crie um arquivo .env e cole o seguinte**:
 
 ```bash
 ## Prencha seus dados aqui
@@ -103,6 +97,12 @@ POSTGRESDB_DOCKER_PORT=5432
 SPRING_LOCAL_PORT=8080
 SPRING_DOCKER_PORT=8080
 ```
+
+4. Execute o seguinte comando para construir o ambiente de desenvolvimento:
+
+   ```bash
+   docker-compose up
+   ```
 
 5. Agora, você pode acessar o projeto em [http://localhost:8080/](http://localhost:8080/).
 
