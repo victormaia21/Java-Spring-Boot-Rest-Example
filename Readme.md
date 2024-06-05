@@ -112,9 +112,3 @@ SPRING_DOCKER_PORT=8080
 - **Estilo de Código**: Seguimos um estilo de código consistente e claro, aderindo às diretrizes java 17 para Java. Utilizamos nomes de variáveis descritivos.
 
 - **Commits Semânticos**: Adotamos a prática de commits semânticos para manter um histórico de alterações legível e informativo.
-
-## LICENÇAS DE UTILIZAÇÃO
-
-Este projeto é distribuído sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter detalhes completos sobre os termos da licença.
-
-Sinta-se à vontade para contribuir com melhorias ou correções para este projeto. Basta abrir uma issue ou enviar um pull request.
