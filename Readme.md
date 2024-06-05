@@ -5,6 +5,7 @@
 ![image](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![image](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 ![image](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![Swagger Validator](https://img.shields.io/swagger/valid/3.0)
 
 # Projeto de API em Rest
 
@@ -12,7 +13,7 @@ Este é um projeto de exemplo de uma API REST feito em Java
 
 ## Link de acesso ao projeto
 
-https://django-potencia-tech.onrender.com/api/v1/docs/
+https://github.com/victormaia21/Java-Spring-Boot-Rest-Example
 
 ## Sumário:
 
@@ -73,6 +74,8 @@ SPRING_DOCKER_PORT=8080
 
 5. Agora, você pode acessar o projeto em [http://localhost:8080/](http://localhost:8080/).
 
+6. Também pode ter acesso ao swagger da aplicação e. [http://localhost:8080/swagger-ui/index.html][http://localhost:8080/swagger-ui/index.html].
+
 ### Iniciando o Projeto com Docker
 
 Se preferir usar Docker, siga estas etapas:
@@ -102,6 +105,8 @@ SPRING_DOCKER_PORT=8080
 ```
 
 5. Agora, você pode acessar o projeto em [http://localhost:8080/](http://localhost:8080/).
+
+6. Também pode ter acesso ao swagger da aplicação em [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html).
 
 ## Abordagem
 
